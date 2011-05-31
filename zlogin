@@ -22,8 +22,8 @@ setopt prompt_subst
 # prompt
 export PS1='[${SSH_CONNECTION+"%{$fg_bold[green]%}%n@%m":}%{$fg_bold[blue]%}%.%{$reset_color%}]$(git_prompt_info) '
 
-export dev=~/Development
-export cp=$dev/client_projects
+export dev=~/development
+export cp=$dev/plus2
 
 # Quick links to client projects
 for DIR in `ls $cp`
