@@ -25,11 +25,5 @@ export PS1='[${SSH_CONNECTION+"%{$fg_bold[green]%}%n@%m":}%{$fg_bold[blue]%}%.%{
 export dev=~/development
 export cp=$dev/plus2
 
-# Quick links to client projects
-for DIR in `ls $cp`
-do
-  export $DIR=$cp/$DIR
-done
-
 if [[ -s "$HOME/.rvm/scripts/rvm" ]]  ; then source "$HOME/.rvm/scripts/rvm" ; fi
 
