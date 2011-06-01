@@ -8,7 +8,7 @@ set nocompatible
 
 " pathogen.vim replaces normal ~/.vim mess
 filetype off 
-set shell=/bin/bash
+" set shell=/bin/zsh
 call pathogen#helptags()
 call pathogen#runtime_append_all_bundles()
 
