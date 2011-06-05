@@ -8,9 +8,9 @@ set nocompatible
 
 " pathogen.vim replaces normal ~/.vim mess
 filetype off 
-" set shell=/bin/zsh
-call pathogen#helptags()
-call pathogen#runtime_append_all_bundles()
+set shell=/bin/bash
+silent! call pathogen#runtime_append_all_bundles()
+" call pathogen#helptags()
 
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
@@ -117,6 +117,8 @@ map <Leader>e :e <C-R>=expand("%:p:h") . "/" <CR>
 " Opens a tab edit command with the path of the currently edited file filled in
 " Normal mode: <Leader>t
 map <Leader>te :tabe <C-R>=expand("%:p:h") . "/" <CR>
+
+map <Leader>h :NERDTreeToggle <CR>
 
 " Inserts the path of the currently edited file into a command
 " Command mode: Ctrl+P
