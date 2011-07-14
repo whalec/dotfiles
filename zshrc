@@ -30,3 +30,5 @@ setopt histignoredups
 
 # keep more history
 export HISTSIZE=200
+
+alias be=bundle exec

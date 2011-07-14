@@ -14,3 +14,4 @@ alias gp="git push"
 
 alias rs="rails server"
 alias rc="rails console"
+alias be="bundle exec"

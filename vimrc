@@ -94,6 +94,8 @@ map <Leader>v :Rview
 map <Leader>u :Runittest 
 map <Leader>f :Rfunctionaltest 
 map <Leader>i :Rintegrationtest 
+map <Leader>r :Rroutes 
+map <Leader>s :Rschema 
 map <Leader>h :Rhelper 
 map <Leader>tm :RTmodel 
 map <Leader>tc :RTcontroller 
@@ -147,6 +149,7 @@ set list listchars=tab:»·,trail:·
 " Edit routes
 command! Rroutes :e config/routes.rb
 command! RTroutes :tabe config/routes.rb
+command! Rschema :e db/schema.rb
 
 " Local config
 if filereadable(".vimrc.local")
