@@ -1,8 +1,5 @@
 alias e="mvim ."
 alias dev="~/development"
-alias p2="~/development/plus2"
-alias d/i="~/development/plus2/davidson-institute"
-alias r/c="~/development/plus2/ruby-connection"
 
 alias gs="git status"
 alias gd="git diff HEAD | gitx"
@@ -12,6 +9,3 @@ alias gu="git reset --soft HEAD^"
 alias gra="git status | grep deleted | awk '{print \$3}' | xargs git rm"
 alias gp="git push"
 
-alias rs="rails server"
-alias rc="rails console"
-alias be="bundle exec"

@@ -8,6 +8,8 @@ setopt auto_cd
 # use vim a9s an editor
 export EDITOR='mvim -f -c "au VimLeave * !open -a Terminal"'
 
+export PGDATA='/Volumes/Underwater/postgres/'
+
 # aliases
 if [ -e "$HOME/.aliases" ]; then
   source "$HOME/.aliases"
